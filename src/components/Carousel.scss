@@ -1,1 +1,23 @@
 // style go here
+
+.Carousel {
+    // width: 1300px;
+    
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        
+        overflow: hidden;
+        display: flex;
+        & li {
+
+            display: block;
+            height: auto;
+            list-style: none;
+
+
+        }
+    }
+}
